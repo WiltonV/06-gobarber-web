@@ -27,6 +27,15 @@
   "rules": {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
+    "import/prefer-default-export": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": "off",
+    "no-unused-expressions": "off",
+    "prettier/prettier": "error",
+    "no-use-before-define": "off",
+    "@typescript-eslint/ban-types": "off",
+    "@typescript-eslint/camelcase": "off",
+    "camelcase": "off",
     "react/jsx-filename-extension": [
       1,
       {
@@ -35,13 +44,6 @@
         ]
       }
     ],
-    "import/prefer-default-export": "off",
-    "react/jsx-props-no-spreading": "off",
-    "react/prop-types": "off",
-    "no-unused-expressions": "off",
-    "prettier/prettier": "error",
-    "no-use-before-define": "off",
-    "@typescript-eslint/ban-types": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
