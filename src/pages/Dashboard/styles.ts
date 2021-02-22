@@ -18,6 +18,7 @@ export const HeaderContent = styled.div`
 
   > img {
     height: 80px;
+    object-fit: cover;
   }
 
   button {
@@ -42,9 +43,10 @@ export const Profile = styled.div`
     width: 56px;
     height: 56px;
     border-radius: 50%;
+    object-fit: cover;
   }
 
-  div: {
+  div {
     display: flex;
     flex-direction: column;
     margin-left: 16px;
@@ -55,8 +57,13 @@ export const Profile = styled.div`
     color: #f4ede8;
   }
 
-  strong {
+  a {
+    text-decoration: none;
     color: #ff9000;
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
 `;
 
@@ -128,6 +135,7 @@ export const NextAppointment = styled.aside`
       width: 80px;
       height: 80px;
       border-radius: 50%;
+      object-fit: cover;
     }
 
     strong {
@@ -200,6 +208,7 @@ export const Appointment = styled.div`
       width: 56px;
       height: 56px;
       border-radius: 50%;
+      object-fit: cover;
     }
 
     strong {
